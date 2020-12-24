@@ -1,0 +1,21 @@
+From 0e62439261843820a220659e5b43c127bfc1d733 Mon Sep 17 00:00:00 2001
+From: vinnykinh <vnykings@gmail.com>
+Date: Thu, 24 Dec 2020 20:51:53 +0300
+Subject: [PATCH] Removed some c program
+
+---
+ src/hello.c | 2 --
+ 1 file changed, 2 deletions(-)
+ delete mode 100644 src/hello.c
+
+diff --git a/src/hello.c b/src/hello.c
+deleted file mode 100644
+index 47c7cb6..0000000
+--- a/src/hello.c
++++ /dev/null
+@@ -1,2 +0,0 @@
+-#include<stdio.h> 
+-int main(){printf("Hello World!!");}
+-- 
+2.25.1
+
